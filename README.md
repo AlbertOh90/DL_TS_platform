@@ -8,7 +8,7 @@ can be reused for different tasks. 2. New NN modules can be easily added to the 
 The platform consists of four components: 
 - encoders: Contains list of backbones of the NN models that encoding the input data into features before any loss functions
 - trainers: List of trainers to cope with different loss functions and training data formats.
-- models: The main interface of NN models
+- TS_classifer&TS_regressor: The main interface of NN models
   - init(): Define the NN architecture based on the modules in the encoders.py
   - train(): Call modules in the trainers to train itself
   - load_model(): 
