@@ -223,11 +223,11 @@ def feature_extracter(model, device, x_train, x_valid, x_test):
   model.eval()
   with torch.no_grad():
     test_codes = model.encoder(x_test.to(device)).squeeze()
-    test_labels = y_test
+    #test_labels = y_test
     train_codes = model.encoder(x_train.to(device)).squeeze()
-    train_labels = y_train
+    #train_labels = y_train
     valid_codes = model.encoder(x_valid.to(device)).squeeze()
-    valid_lables = y_valid
+    #valid_lables = y_valid
   return train_codes, valid_codes, test_codes 
 
 class LinearClassifier(nn.Module):
