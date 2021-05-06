@@ -1,7 +1,7 @@
 **A Deep Learning based Time Series Forecasting Platform (PyTorch version)**
 
 This platform is designed with two considerations: 1. The architecture and training modules of neural networks
-can be reused for different tasks. 2. New NN modules can be easily added to the platform.
+can be reused for different tasks like a Lego. 2. NN modules, losses and training function are easier exchangable in order to search best combinations for a specific task.
 
 **TS platform**
 
