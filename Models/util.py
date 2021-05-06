@@ -1,3 +1,4 @@
+#Copyright (c) 2020 Hanwei Wu
 import torch
 def data_standlization(dataset):
     """standardize a tensor dataset

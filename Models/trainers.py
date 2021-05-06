@@ -1,3 +1,4 @@
+#Copyright (c) 2020 Hanwei Wu
 import torch
 import torch.optim as optim
 import time

@@ -1,3 +1,4 @@
+#Copyright (c) 2020 Hanwei Wu
 import torch
 from TS_platform.util import data_standlization
 from TS_platform.encoders import ARautoencoder
