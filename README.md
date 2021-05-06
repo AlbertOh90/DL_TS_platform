@@ -26,4 +26,5 @@ training models. It will be the primary working file for a project.
 - customer_inference: Load pretrained models for new predictions. The main delivery to a customer.
 - customer_util: Support functions
 
+-----------------------------------------------------------------------------------------------------------------------------
 Try losses defined in losses_exp.py (proposed by Conditional Mutual information-based Contrastive Loss for Financial Time Series Forecasting (Hanwei Wu, Ather Gattami, Markus Flierl) for supervised constrative learning.
