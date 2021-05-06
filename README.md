@@ -25,3 +25,5 @@ contains:
 training models. It will be the primary working file for a project.
 - customer_inference: Load pretrained models for new predictions. The main delivery to a customer.
 - customer_util: Support functions
+
+Try constravtive loss proposed in Conditional Mutual information-based Contrastive Loss for Financial Time Series Forecasting (Hanwei Wu, Ather Gattami, Markus Flierl) for experiments.
